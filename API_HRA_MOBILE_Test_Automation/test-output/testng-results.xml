@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-29T16:22:13 IST" name="PostSuite" finished-at="2024-11-29T16:22:18 IST" duration-ms="5049">
+    <groups>
+    </groups>
+    <test started-at="2024-11-29T16:22:13 IST" name="PostTest" finished-at="2024-11-29T16:22:18 IST" duration-ms="5049">
+      <class name="api.test.CommentOnPostTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.CommentOnPostTests@ca30bc1]" started-at="2024-11-29T16:22:17 IST" name="setup" finished-at="2024-11-29T16:22:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateComment()[pri:1, instance:api.test.CommentOnPostTests@ca30bc1]" started-at="2024-11-29T16:22:17 IST" name="testCreateComment" finished-at="2024-11-29T16:22:18 IST" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateComment -->
+        <test-method signature="testCreateReplayComment()[pri:0, instance:api.test.CommentOnPostTests@ca30bc1]" started-at="2024-11-29T16:22:18 IST" name="testCreateReplayComment" finished-at="2024-11-29T16:22:18 IST" depends-on-methods="api.test.CommentOnPostTests.testCreateComment" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateReplayComment -->
+        <test-method signature="testReadAllComment()[pri:0, instance:api.test.CommentOnPostTests@ca30bc1]" started-at="2024-11-29T16:22:18 IST" name="testReadAllComment" finished-at="2024-11-29T16:22:18 IST" depends-on-methods="api.test.CommentOnPostTests.testCreateComment" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadAllComment -->
+        <test-method signature="testDeleteComment()[pri:0, instance:api.test.CommentOnPostTests@ca30bc1]" started-at="2024-11-29T16:22:18 IST" name="testDeleteComment" finished-at="2024-11-29T16:22:18 IST" depends-on-methods="api.test.CommentOnPostTests.testReadAllComment, api.test.CommentOnPostTests.testCreateReplayComment" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteComment -->
+      </class> <!-- api.test.CommentOnPostTests -->
+      <class name="api.test.ContentPostTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.ContentPostTests@4716be8b]" started-at="2024-11-29T16:22:13 IST" name="setup" finished-at="2024-11-29T16:22:14 IST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateContent()[pri:1, instance:api.test.ContentPostTests@4716be8b]" started-at="2024-11-29T16:22:14 IST" name="testCreateContent" finished-at="2024-11-29T16:22:17 IST" duration-ms="2985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateContent -->
+        <test-method signature="testReadllContent()[pri:2, instance:api.test.ContentPostTests@4716be8b]" started-at="2024-11-29T16:22:17 IST" name="testReadllContent" finished-at="2024-11-29T16:22:17 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadllContent -->
+        <test-method signature="testupdateContent()[pri:3, instance:api.test.ContentPostTests@4716be8b]" started-at="2024-11-29T16:22:17 IST" name="testupdateContent" finished-at="2024-11-29T16:22:17 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testupdateContent -->
+      </class> <!-- api.test.ContentPostTests -->
+    </test> <!-- PostTest -->
+  </suite> <!-- PostSuite -->
+</testng-results>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PostSuite">
+	<test name="PostTest">
+		<classes>
+			<class name="api.test.ContentPostTests" />
+			<class name="api.test.CommentOnPostTests" />
+			<!-- <class name="api.test.LikeThePostsTests"/> 
+			<class name="api.test.LikeTheCommentTests"/> -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
